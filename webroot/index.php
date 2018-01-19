@@ -208,20 +208,45 @@
 //$car1 = new Car('Mercedes');
 //echo $car1 -> getCarModel();
 
-class User
-{
-    private $firstName = '';
-    private $lastName = '';
-    public function __construct($firstName = null, $lastName = null)
-    {
-        $this -> firstName = $firstName;
-        $this -> lastName = $lastName;
-    }
-    public function getFullName()
-    {
-        return ' The ' .  __class__ . " name is: " . $this->firstName . ' ' . $this->lastName;
-    }
-}
+//class User
+//{
+//    private $firstName = '';
+//    private $lastName = '';
+//    public function __construct($firstName = null, $lastName = null)
+//    {
+//        $this -> firstName = $firstName;
+//        $this -> lastName = $lastName;
+//    }
+//    public function getFullName()
+//    {
+//        return ' The ' .  __class__ . " name is: " . $this->firstName . ' ' . $this->lastName;
+//    }
+//}
+//
+//$user1 = new User('John', 'Doe');
+//echo $user1 -> getFullName();
 
-$user1 = new User('John', 'Doe');
-echo $user1 -> getFullName();
+
+// Inheritance in OOP
+
+//class Car
+//{
+//    private $model;
+//    public function setModel($model)
+//    {
+//        $this -> model = $model;
+//    }
+//    public function hello()
+//    {
+//        return 'beep! I am ' . $this -> model;
+//    }
+//}
+//
+//class SportsCar extends Car
+//{
+//
+//}
+//
+//$SportsCar = new SportsCar();
+//$SportsCar -> setModel('Mercedes Benz');
+//echo $SportsCar -> hello();
