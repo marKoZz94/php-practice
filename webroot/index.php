@@ -119,18 +119,36 @@
 //$mercedes -> model = 'Mercedes';
 //echo $mercedes->getModel();
 
-class Car
-{
-    private $model;
-    public function setModel($model)
-    {
-        $this -> model = $model;
-    }
-    public function getModel()
-    {
-        return "The car model is " . $this-> model;
-    }
-}
-$mercedes = new Car();
-$mercedes -> setModel('Mercedes');
-echo $mercedes->getModel();
+//class Car
+//{
+//    private $model;
+//    public function setModel($model)
+//    {
+//        $this -> model = $model;
+//    }
+//    public function getModel()
+//    {
+//        return "The car model is " . $this-> model;
+//    }
+//}
+//$mercedes = new Car();
+//$mercedes -> setModel('Mercedes');
+//echo $mercedes->getModel();
+
+
+//class User
+//{
+//    private $firstName;
+//    public function setFirstName($firstName)
+//    {
+//        $this -> firstName = $firstName;
+//    }
+//    public function getFirstName()
+//    {
+//        return $this -> firstName;
+//    }
+//}
+//
+//$user1 = new User();
+//$user1 -> setfirstName('Joe');
+//echo $user1 -> getfirstName();
