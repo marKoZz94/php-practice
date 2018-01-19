@@ -152,3 +152,20 @@
 //$user1 = new User();
 //$user1 -> setfirstName('Joe');
 //echo $user1 -> getfirstName();
+
+// Construct magic method
+//class Car
+//{
+//    private $model;
+//    public function __construct($model)
+//    {
+//        $this -> model = $model;
+//    }
+//    public function getCarModel()
+//    {
+//        return ' The car model is ' . $this -> model;
+//    }
+//}
+//
+//$car1 = new Car('Mercedes');
+//echo $car1 -> getCarModel();
