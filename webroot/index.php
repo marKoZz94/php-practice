@@ -78,28 +78,43 @@
 //$tank = $bmw -> fill(10) -> ride(40) -> tank;
 //echo "The number of gallons left in the tank " . $tank . " gal.";
 
-class User
-{
-    public $firstName;
-    public $lastName;
-    public function hello()
-    {
-        return "hello," . $this->firstName;
-    }
-    public function register()
-    {
-        echo $this->firstName . " registered";
-        return $this;
-    }
-    public function email()
-    {
-        echo ", emailed.";
-        return $this;
-    }
-}
+//class User
+//{
+//    public $firstName;
+//    public $lastName;
+//    public function hello()
+//    {
+//        return "hello," . $this->firstName;
+//    }
+//    public function register()
+//    {
+//        echo $this->firstName . " registered";
+//        return $this;
+//    }
+//    public function email()
+//    {
+//        echo ", emailed.";
+//        return $this;
+//    }
+//}
+//
+//$user1 = new User();
+//$user1 -> firstName = 'Jane';
+//$user1 -> lastName = 'Roe';
+//
+//$user1 -> register() -> email() -> hello();
 
-$user1 = new User();
-$user1 -> firstName = 'Jane';
-$user1 -> lastName = 'Roe';
+// Public vs Private
 
-$user1 -> register() -> email() -> hello();
+//class Car
+//{
+//    public $model;
+//    public function getModel()
+//    {
+//        return "The car model is " . $this-> model;
+//    }
+//}
+//
+//$mercedes = new Car();
+//$mercedes -> model = 'Mercedes';
+//echo $mercedes->getModel();
