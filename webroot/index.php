@@ -666,3 +666,58 @@
 //
 //$bmw1 = new Bmw('62182791', 14, 21);
 //echo $bmw1 -> calcTankPrice($bmw1, 3);
+
+// Type hinting for interfaces
+
+//abstract class Car
+//{
+//    protected $model;
+//    protected $height;
+//
+//    abstract public function calcTankVolume();
+//
+//    public function calcTankPrice(Car $car, $pricePerGalon)
+//    {
+//        return $car -> calcTankVolume() * 0.0043290 * $pricePerGalon . "$";
+//    }
+//}
+//
+//class Bmw extends Car
+//{
+//    protected $rib;
+//
+//    public function __construct($model, $rib, $height)
+//    {
+//        $this -> model = $model;
+//        $this -> rib = $rib;
+//        $this -> height = $height;
+//    }
+//
+//    public function calcTankVolume()
+//    {
+//        return $this -> rib * $this -> rib * $this -> height;
+//    }
+//}
+//
+//class Mercedes extends Car
+//{
+//    protected $radius;
+//
+//    public function __construct($model, $radius, $height)
+//    {
+//        $this -> model = $model;
+//        $this -> radius = $radius;
+//        $this -> height = $height;
+//    }
+//
+//    public function calcTankVolume()
+//    {
+//        return $this -> radius * $this -> radius * pi() * $this -> height;
+//    }
+//}
+//
+//$bmw1 = new Bmw('62182791', 14, 21);
+//echo $bmw1 -> calcTankPrice($bmw1, 3);
+//echo "<br>";
+//$mercedes1 = new Mercedes('12189796', 7, 28);
+//echo $mercedes1 -> calcTankPrice($mercedes1, 3);
