@@ -189,21 +189,39 @@
 //$car1 = new Car('Mercedes');
 //echo $car1 -> getCarModel();
 
-class Car
+//class Car
+//{
+//    private $model = '';
+//    public function __construct($model = null)
+//    {
+//        if($model)
+//        {
+//            $this -> model = $model;
+//        }
+//    }
+//    public function getCarModel()
+//    {
+//        return ' The ' .  __class__ . " model is: " . $this->model;
+//    }
+//}
+//
+//$car1 = new Car('Mercedes');
+//echo $car1 -> getCarModel();
+
+class User
 {
-    private $model = '';
-    public function __construct($model = null)
+    private $firstName = '';
+    private $lastName = '';
+    public function __construct($firstName = null, $lastName = null)
     {
-        if($model)
-        {
-            $this -> model = $model;
-        }
+        $this -> firstName = $firstName;
+        $this -> lastName = $lastName;
     }
-    public function getCarModel()
+    public function getFullName()
     {
-        return ' The ' .  __class__ . " model is: " . $this->model;
+        return ' The ' .  __class__ . " name is: " . $this->firstName . ' ' . $this->lastName;
     }
 }
 
-$car1 = new Car('Mercedes');
-echo $car1 -> getCarModel();
+$user1 = new User('John', 'Doe');
+echo $user1 -> getFullName();
