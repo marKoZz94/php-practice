@@ -169,3 +169,22 @@
 //
 //$car1 = new Car('Mercedes');
 //echo $car1 -> getCarModel();
+
+//class Car
+//{
+//    private $model = '';
+//    public function __construct($model = null)
+//    {
+//        if($model)
+//        {
+//            $this -> model = $model;
+//        }
+//    }
+//    public function getCarModel()
+//    {
+//        return ' The car model is ' . $this -> model;
+//    }
+//}
+//
+//$car1 = new Car('Mercedes');
+//echo $car1 -> getCarModel();
