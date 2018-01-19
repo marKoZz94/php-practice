@@ -388,3 +388,38 @@
 //echo "<br>";
 //echo $toyota1 -> getColor();
 
+//abstract class User
+//{
+//    protected $username;
+//
+//    public function setUsername($username)
+//    {
+//        $this -> username = $username;
+//    }
+//
+//    public function getUsername()
+//    {
+//
+//    }
+//
+//    abstract public function stateYourRoll();
+//}
+//
+//class Admin extends User{
+//    public function StateYourRoll()
+//    {
+//        return $username = $this -> username . ' Admin';
+//    }
+//}
+//
+//class Viewer extends User{
+//    public function StateYourRoll()
+//    {
+//
+//    }
+//}
+//
+//$admin1 = new Admin();
+//$admin1 -> setUsername('Baltazar');
+//echo $admin1 -> StateYourRoll();
+
