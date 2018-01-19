@@ -280,24 +280,70 @@
 
 // Protected
 
-class Car
-{
-    protected $model;
-    public function setModel($model)
-    {
-        $this -> model = $model;
-    }
-}
+//class Car
+//{
+//    protected $model;
+//    public function setModel($model)
+//    {
+//        $this -> model = $model;
+//    }
+//}
+//
+//class SportsCar extends Car
+//{
+//    public function hello()
+//    {
+//        return "Beep! I am a  " . $this -> model;
+//    }
+//
+//}
+//
+//$SportsCar = new SportsCar();
+//$SportsCar -> setModel('Ferrari');
+//echo $SportsCar -> hello();
 
-class SportsCar extends Car
-{
-    public function hello()
-    {
-        return "Beep! I am a  " . $this -> model;
-    }
+//class Car
+//{
+//    public function hello()
+//    {
+//        return 'Beep';
+//    }
+//}
+//
+//class SportsCar extends Car
+//{
+//    public function hello()
+//    {
+//        return 'Hallo';
+//    }
+//
+//}
+//
+//$SportsCar = new SportsCar();
+//echo $SportsCar -> hello();
 
-}
+//class User
+//{
+//    protected $username;
+//    public function setUsername($username)
+//    {
+//        $this -> username = $username;
+//    }
+//}
+//
+//class Admin extends User
+//{
+//    public function expressYourRole()
+//    {
+//        return 'Admin';
+//    }
+//    public function sayHello()
+//    {
+//        return "Hello Admin, " . $this -> username;
+//    }
+//}
+//
+//$admin1 = new Admin();
+//$admin1 -> setUsername('Balthazar');
+//echo $admin1 -> sayHello();
 
-$SportsCar = new SportsCar();
-$SportsCar -> setModel('Ferrari');
-echo $SportsCar -> hello();
