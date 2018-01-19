@@ -77,3 +77,29 @@
 //
 //$tank = $bmw -> fill(10) -> ride(40) -> tank;
 //echo "The number of gallons left in the tank " . $tank . " gal.";
+
+class User
+{
+    public $firstName;
+    public $lastName;
+    public function hello()
+    {
+        return "hello," . $this->firstName;
+    }
+    public function register()
+    {
+        echo $this->firstName . " registered";
+        return $this;
+    }
+    public function email()
+    {
+        echo ", emailed.";
+        return $this;
+    }
+}
+
+$user1 = new User();
+$user1 -> firstName = 'Jane';
+$user1 -> lastName = 'Roe';
+
+$user1 -> register() -> email() -> hello();
