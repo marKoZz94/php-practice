@@ -423,3 +423,78 @@
 //$admin1 -> setUsername('Baltazar');
 //echo $admin1 -> StateYourRoll();
 
+// Interfaces
+
+//interface Car
+//{
+//    public function setModel($name);
+//    public function getModel();
+//}
+//
+//interface Vehicle
+//{
+//    public function setHasWheels($bool);
+//    public function getHasWheelsl();
+//}
+//
+//class MiniCar implements Car
+//{
+//    private $model;
+//    private $hasWheels;
+//    public function setModel($name)
+//    {
+//        $this -> model = $name;
+//    }
+//    public function  getModel()
+//    {
+//        return $this -> model;
+//    }
+//
+//    public function setHasWheels($bool)
+//    {
+//        $this -> hasWheels = $bool;
+//    }
+//    public function  getHasWheels()
+//    {
+//        return ($this -> hasWheels)? "Has Wheels" : "No wheels";
+//    }
+//}
+
+//interface Shape
+//{
+//    public function calcArea();
+//}
+//
+//class Circle implements Shape
+//{
+//    private $radius;
+//    public function __construct($radius)
+//    {
+//        $this -> radius = $radius;
+//    }
+//    public function calcArea()
+//    {
+//        return $this -> radius * $this -> radius * pi();
+//    }
+//}
+//
+//class Rectangle implements Shape
+//{
+//    private $height;
+//    private $weight;
+//    public function __construct($height, $weight)
+//    {
+//        $this -> weight = $weight;
+//        $this -> height = $height;
+//    }
+//    public function calcArea()
+//    {
+//        return $this -> weight * $this -> height;
+//    }
+//}
+//
+//$circ = new Circle(3);
+//$rect = new Rectangle(3, 4);
+//echo $circ -> calcArea();
+//echo $rect -> calcArea();
+
