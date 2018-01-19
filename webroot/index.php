@@ -31,3 +31,26 @@ echo $user2 -> lastName . "<br>";
 
 $user1 -> hello();
 $user2 -> hello();
+
+// $this keyword
+
+class Car {
+    public $comp;
+    public $numWheels = 4;
+    public $hasSunRoof = true;
+
+    public function hello(){
+        return "Beep I am a <i>" . $this->comp . "</i>, and I am <i>" . $this->color . "</i>";
+    }
+}
+
+$bmw = new Car();
+$mercedes = new Car();
+$bmw -> comp = 'BMW';
+$bmw -> color = 'blue';
+$mercedes -> comp = 'Mercedes Benz';
+$mercedes -> color = 'green';
+
+echo $bmw->hello();
+echo "<br>";
+echo $mercedes->hello();
