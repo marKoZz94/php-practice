@@ -608,3 +608,61 @@
 //$editor1 -> setNumberOfArticles(15);
 //echo $editor1 -> calcScores();
 
+// Type Hinting
+//function calcNumMilesOnFullTank(array $models)
+//{
+//
+//    foreach ($models as $item)
+//    {
+//        echo $carModel = $item[0];
+//        echo " : ";
+//        echo $numberOfMiles = $item[1] * $item[2];
+//        echo "<br>";
+//    }
+//}
+//
+//calcNumMilesOnFullTank(array(
+//    array("Toyota", 12, 44),
+//    array("BMW", 13, 41),
+//));
+
+//class Car
+//{
+//    protected $driver;
+//    public function __construct(Driver $driver)
+//    {
+//        $this -> driver = $driver;
+//    }
+//}
+//
+//class Driver{}
+//
+//$driver1 = new Driver();
+//$car1 = new Car ($driver1);
+
+//class Bmw
+//{
+//    protected $model;
+//    protected $rib;
+//    protected $height;
+//
+//    public function __construct($model, $rib, $height)
+//    {
+//        $this -> model = $model;
+//        $this -> rib = $rib;
+//        $this -> height = $height;
+//    }
+//
+//    public function calcTankVolume()
+//    {
+//        return $this -> rib * $this -> rib * $this -> height;
+//    }
+//
+//    function calcTankPrice(Bmw $bmw, $pricePerGalon)
+//    {
+//        return $bmw -> calcTankVolume() * 0.0043290 * $pricePerGalon . "$";
+//    }
+//}
+//
+//$bmw1 = new Bmw('62182791', 14, 21);
+//echo $bmw1 -> calcTankPrice($bmw1, 3);
