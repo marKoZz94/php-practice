@@ -250,3 +250,30 @@
 //$SportsCar = new SportsCar();
 //$SportsCar -> setModel('Mercedes Benz');
 //echo $SportsCar -> hello();
+
+//class Car
+//{
+//    private $model;
+//    public function setModel($model)
+//    {
+//        $this -> model = $model;
+//    }
+//    public function getModel()
+//    {
+//        return $this -> model;
+//    }
+//}
+//
+//class SportsCar extends Car
+//{
+//    private $style = 'fast and furious';
+//    public function DriveItWithStyle()
+//    {
+//        return "Drive a " . $this -> getModel() . ' ' . $this -> style;
+//    }
+//
+//}
+//
+//$SportsCar = new SportsCar();
+//$SportsCar -> setModel('Ferrari');
+//echo $SportsCar -> DriveItWithStyle();
