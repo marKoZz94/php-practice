@@ -1020,3 +1020,47 @@
 //$car = new Car($driver);
 //$car -> setDriver($driver);
 //echo $car -> getDriver() -> sayYourName();
+
+//class Article
+//{
+//    protected $title;
+//    protected $author;
+//    public function __construct($title, $author)
+//    {
+//        $this -> title = $title;
+//        $this -> author = $author;
+//    }
+//    public function getArticleTitle()
+//    {
+//        return $this -> title;
+//    }
+//
+//    public function getAuthor()
+//    {
+//        return $this -> author;
+//    }
+//}
+//
+//class Author
+//{
+//    protected $name;
+//
+//    public function setName($name)
+//    {
+//        $this->name = $name;
+//    }
+//
+//    public function getName()
+//    {
+//        return $this->name;
+//    }
+//
+//}
+//
+//$author1 = new Author();
+//$author1 -> setName('Joe');
+//
+//$title = 'To PHP and Beyond';
+//$article1 = new Article($title, $author1);
+//
+//echo $article1 -> getArticleTitle() . ' by ' . $article1 -> getAuthor() -> getName();
