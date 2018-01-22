@@ -992,3 +992,31 @@
 //
 //$commentator1 = new Commentator();
 //echo $commentator1 -> writeContent();
+
+// Dependency injection
+
+//class humanDriver
+//{
+//    public function sayYourName()
+//    {
+//        return 'Bob';
+//    }
+//}
+//
+//class Car
+//{
+//    protected $driver;
+//    public function setDriver($driver)
+//    {
+//        $this -> driver = $driver;
+//    }
+//    public function getDriver()
+//    {
+//        return $this -> driver;
+//    }
+//}
+//
+//$driver = new humanDriver();
+//$car = new Car($driver);
+//$car -> setDriver($driver);
+//echo $car -> getDriver() -> sayYourName();
