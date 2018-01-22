@@ -879,3 +879,47 @@
 //echo "<br>";
 //$mercedes1 = new Mercedes();
 //echo $mercedes1 -> changePriceByDollars(42000, -2100);
+
+//trait Price{
+//    public function changePriceByDollars($price, $change)
+//    {
+//        return $price + $change;
+//    }
+//}
+//
+//class Bmw
+//{
+//    use Price;
+//}
+//
+//class Mercedes
+//{
+//    use Price;
+//}
+//
+
+//trait Price{
+//    public function changePriceByDollars($price, $change)
+//    {
+//        return $price + $change;
+//    }
+//}
+//
+//trait SpecialSell
+//{
+//    public function announceSpecialSell()
+//    {
+//        return __CLASS__ . " on special sell";
+//    }
+//}
+//
+//class Mercedes
+//{
+//    use Price;
+//    use SpecialSell;
+//}
+//
+//$mercedes1 = new Mercedes();
+//echo $mercedes1 -> changePriceByDollars(42000, -2100);
+//echo "<br>";
+//echo $mercedes1 -> announceSpecialSell();
