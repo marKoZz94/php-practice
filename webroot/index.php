@@ -789,3 +789,12 @@
 //$user2 -> setGender('male');
 //echo $user1 -> addMrOrMrsTousername($user2);
 
+// Static methods and properties
+
+//class Utilis
+//{
+//    static public $numCars = 0;
+//}
+//
+//Utilis::$numCars = 3;
+//echo Utilis::$numCars;
