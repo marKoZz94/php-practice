@@ -923,3 +923,32 @@
 //echo $mercedes1 -> changePriceByDollars(42000, -2100);
 //echo "<br>";
 //echo $mercedes1 -> announceSpecialSell();
+
+//trait Price
+//{
+//    public function changePriceByDollar($change)
+//    {
+//        return $this -> price += $change;
+//    }
+//}
+//
+//class Mercedes
+//{
+//    use Price;
+//
+//    private $price;
+//    public function __construct($price)
+//    {
+//        $this -> price = $price;
+//    }
+//    public function getPrice()
+//    {
+//        return $this -> price;
+//    }
+//}
+//
+//$mercedes1 = new Mercedes(42000);
+//echo $mercedes1 -> getPrice();
+//echo "<br>";
+//$mercedes1 -> changePriceByDollar(-2100);
+//echo $mercedes1 -> getPrice();
