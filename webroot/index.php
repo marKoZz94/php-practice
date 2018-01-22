@@ -952,3 +952,43 @@
 //echo "<br>";
 //$mercedes1 -> changePriceByDollar(-2100);
 //echo $mercedes1 -> getPrice();
+
+//interface User
+//{
+//
+//}
+//
+//class Author implements User
+//{
+//    use Writing;
+//    public function writeContent()
+//    {
+//        return "Author, please start typing an article...";
+//    }
+//}
+//
+//class Commentator implements User
+//{
+//    use Writing;
+//    public function writeContent()
+//    {
+//        return "Commentator, please start typing your comment...";
+//    }
+//}
+//
+//class Viewer implements User
+//{
+//
+//}
+//
+//trait Writing
+//{
+//    abstract public function writeContent();
+//}
+//
+//$author1 = new Author();
+//echo $author1 -> writeContent();
+//echo "<br>";
+//
+//$commentator1 = new Commentator();
+//echo $commentator1 -> writeContent();
