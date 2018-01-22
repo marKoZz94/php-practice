@@ -819,3 +819,25 @@
 //echo "<br>";
 //Utilis::addToNumCars(-1);
 //echo Utilis::$numCars;
+
+// Use case 1: As counters
+
+//class Utilis
+//{
+//    static public $numberOfCars = 0;
+//    static public function add1ToCars()
+//    {
+//        self::$numberOfCars++;
+//    }
+//}
+//
+//echo Utilis::$numberOfCars;
+//Utilis::add1ToCars();
+//echo "<br>";
+//echo Utilis::$numberOfCars;
+//Utilis::add1ToCars();
+//echo "<br>";
+//echo Utilis::$numberOfCars;
+//Utilis::add1ToCars();
+//echo "<br>";
+//echo Utilis::$numberOfCars;
