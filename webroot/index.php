@@ -841,3 +841,17 @@
 //Utilis::add1ToCars();
 //echo "<br>";
 //echo Utilis::$numberOfCars;
+
+// Use case 2: For Utility Classes
+
+//Class Utilis
+//{
+//    static public function redirect($url)
+//    {
+//        header("Location: $url");
+//        exit;
+//    }
+//}
+//
+//Utilis::redirect("http://www.chelseafc.com");
+
